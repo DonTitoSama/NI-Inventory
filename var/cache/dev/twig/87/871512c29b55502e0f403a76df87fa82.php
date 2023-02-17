@@ -32,6 +32,7 @@ class __TwigTemplate_d402b493fbf0345f1cc863af05897ca9 extends Template
             'javascripts' => [$this, 'block_javascripts'],
             'header' => [$this, 'block_header'],
             'body' => [$this, 'block_body'],
+            'footer' => [$this, 'block_footer'],
         ];
     }
 
@@ -73,6 +74,11 @@ class __TwigTemplate_d402b493fbf0345f1cc863af05897ca9 extends Template
         // line 21
         $this->displayBlock('body', $context, $blocks);
         // line 22
+        echo "
+        ";
+        // line 23
+        $this->displayBlock('footer', $context, $blocks);
+        // line 26
         echo "    </body>
 </html>
 ";
@@ -192,6 +198,29 @@ class __TwigTemplate_d402b493fbf0345f1cc863af05897ca9 extends Template
 
     }
 
+    // line 23
+    public function block_footer($context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2 = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->enter($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "footer"));
+
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "footer"));
+
+        // line 24
+        echo "            ";
+        $this->loadTemplate("partials/_footer.html.twig", "base.html.twig", 24)->display($context);
+        // line 25
+        echo "\t\t";
+        
+        $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
+
+        
+        $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
+
+    }
+
     public function getTemplateName()
     {
         return "base.html.twig";
@@ -199,7 +228,7 @@ class __TwigTemplate_d402b493fbf0345f1cc863af05897ca9 extends Template
 
     public function getDebugInfo()
     {
-        return array (  178 => 21,  168 => 19,  165 => 18,  155 => 17,  142 => 13,  132 => 12,  117 => 7,  107 => 6,  88 => 5,  76 => 22,  74 => 21,  71 => 20,  69 => 17,  65 => 15,  63 => 12,  60 => 11,  58 => 6,  54 => 5,  48 => 1,);
+        return array (  215 => 25,  212 => 24,  202 => 23,  184 => 21,  174 => 19,  171 => 18,  161 => 17,  148 => 13,  138 => 12,  123 => 7,  113 => 6,  94 => 5,  82 => 26,  80 => 23,  77 => 22,  75 => 21,  72 => 20,  70 => 17,  66 => 15,  64 => 12,  61 => 11,  59 => 6,  55 => 5,  49 => 1,);
     }
 
     public function getSourceContext()
@@ -225,6 +254,10 @@ class __TwigTemplate_d402b493fbf0345f1cc863af05897ca9 extends Template
 \t\t{% endblock %}
 
 \t\t{% block body %}{% endblock %}
+
+        {% block footer %}
+            {% include \"partials/_footer.html.twig\" %}
+\t\t{% endblock %}
     </body>
 </html>
 ", "base.html.twig", "/Users/dondiego/Desktop/Symfony/SynRecipe/templates/base.html.twig");

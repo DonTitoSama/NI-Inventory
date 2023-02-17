@@ -54,7 +54,7 @@ class __TwigTemplate_d13ba99309de2d4f6d408ebe47b09027 extends Template
           </a>
     </div>
   </div>
-</nav>";
+</nav";
         
         $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
 
@@ -89,6 +89,6 @@ class __TwigTemplate_d13ba99309de2d4f6d408ebe47b09027 extends Template
           </a>
     </div>
   </div>
-</nav>", "partials/_header.html.twig", "/Users/dondiego/Desktop/Symfony/SynRecipe/templates/partials/_header.html.twig");
+</nav", "partials/_header.html.twig", "/Users/dondiego/Desktop/Symfony/SynRecipe/templates/partials/_header.html.twig");
     }
 }
