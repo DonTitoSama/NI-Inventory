@@ -58,6 +58,10 @@ return [[
 '[C]App%5CController%5CHomeController' => 1,
 'App%5CController%5CHomeController%23index' => 0,
 '[C]App%5CController%5CHomeController%23index' => 1,
+'App%5CController%5CIngredientController' => 0,
+'[C]App%5CController%5CIngredientController' => 1,
+'App%5CController%5CIngredientController%23index' => 0,
+'[C]App%5CController%5CIngredientController%23index' => 1,
 'App%5CEntity%5CIngredient' => 0,
 '[C]App%5CEntity%5CIngredient' => 1,
 'App%5CEntity%5CIngredient%23__construct' => 0,
@@ -632,6 +636,6 @@ return [[
 ], [
 
 0 => [],
-1 => 1676661047,
+1 => 1676677042,
 
 ]];
