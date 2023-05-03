@@ -88,8 +88,8 @@ class __TwigTemplate_9aef860cb1eac8af24d9000aeb60d20e extends Template
         // line 7
         echo "\t<div class=\"container mt-4\">
 \t\t<div class=\"jumbotron\">
-\t\t\t<h1 class=\"display-4\">Bienvenue sur SymRecipe</h1>
-\t\t\t<p class=\"lead\">SymRecipe est une application qui va te permettre de créer des recettes à base d'ingrédients que tu auras toi-même créer. Tu pourras partager tes recettes à la communauté du site, ou bien les garder en privées.</p>
+\t\t\t<h1 class=\"display-4\">Bienvenue sur Nice Informatique Inventory !</h1>
+\t\t\t<p class=\"lead\">NI Inventory est une application qui va te permettre de gérer ton stock, c'est à dire, ajouter, modifier, créer ou supprimer un produit.</p>
 \t\t\t<hr class=\"my-4\">
 \t\t\t<p>Pour commencer, rendez-vous sur la page d'inscription pour utiliser l'application.</p>
 \t\t\t<a class=\"btn btn-primary btn-lgz\" href=\"\" role=\"button\">Inscription</a>
@@ -129,8 +129,8 @@ class __TwigTemplate_9aef860cb1eac8af24d9000aeb60d20e extends Template
 {% block body %}
 \t<div class=\"container mt-4\">
 \t\t<div class=\"jumbotron\">
-\t\t\t<h1 class=\"display-4\">Bienvenue sur SymRecipe</h1>
-\t\t\t<p class=\"lead\">SymRecipe est une application qui va te permettre de créer des recettes à base d'ingrédients que tu auras toi-même créer. Tu pourras partager tes recettes à la communauté du site, ou bien les garder en privées.</p>
+\t\t\t<h1 class=\"display-4\">Bienvenue sur Nice Informatique Inventory !</h1>
+\t\t\t<p class=\"lead\">NI Inventory est une application qui va te permettre de gérer ton stock, c'est à dire, ajouter, modifier, créer ou supprimer un produit.</p>
 \t\t\t<hr class=\"my-4\">
 \t\t\t<p>Pour commencer, rendez-vous sur la page d'inscription pour utiliser l'application.</p>
 \t\t\t<a class=\"btn btn-primary btn-lgz\" href=\"\" role=\"button\">Inscription</a>

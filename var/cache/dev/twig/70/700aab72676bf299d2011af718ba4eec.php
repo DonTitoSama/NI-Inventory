@@ -42,21 +42,27 @@ class __TwigTemplate_4710f421e9cba3cd5d747cf2b33c3852 extends Template
         // line 1
         echo "<nav class=\"navbar navbar-expand-lg navbar-dark bg-primary\">
   <div class=\"container-fluid\">
-    <a class=\"navbar-brand\" href=\"#\">SynRecipe</a>
+    <a class=\"navbar-brand\" href=\"";
+        // line 3
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("home.index");
+        echo "\">SynRecipe</a>
     <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarColor01\" aria-controls=\"navbarColor01\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
       <span class=\"navbar-toggler-icon\"></span>
     </button>
     <div class=\"collapse navbar-collapse\" id=\"navbarColor01\">
       <ul class=\"navbar-nav me-auto\">
         <li class=\"nav-item\">
-          <a class=\"nav-link active\" href=\"#\">Accueil
+          <a class=\"nav-link active\" href=\"";
+        // line 10
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("home.index");
+        echo "\">Accueil
             <span class=\"visually-hidden\">(current)</span>
           </a>
         <li class=\"nav-item\">
           <a class=\"nav-link\" href=\"";
         // line 14
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("ingredient.index");
-        echo "\">Ingrédients
+        echo "\">Mon stock
             <span class=\"visually-hidden\">(current)</span>
           </a>
     </div>
@@ -82,25 +88,25 @@ class __TwigTemplate_4710f421e9cba3cd5d747cf2b33c3852 extends Template
 
     public function getDebugInfo()
     {
-        return array (  58 => 14,  43 => 1,);
+        return array (  64 => 14,  57 => 10,  47 => 3,  43 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<nav class=\"navbar navbar-expand-lg navbar-dark bg-primary\">
   <div class=\"container-fluid\">
-    <a class=\"navbar-brand\" href=\"#\">SynRecipe</a>
+    <a class=\"navbar-brand\" href=\"{{ path('home.index') }}\">SynRecipe</a>
     <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarColor01\" aria-controls=\"navbarColor01\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
       <span class=\"navbar-toggler-icon\"></span>
     </button>
     <div class=\"collapse navbar-collapse\" id=\"navbarColor01\">
       <ul class=\"navbar-nav me-auto\">
         <li class=\"nav-item\">
-          <a class=\"nav-link active\" href=\"#\">Accueil
+          <a class=\"nav-link active\" href=\"{{ path('home.index') }}\">Accueil
             <span class=\"visually-hidden\">(current)</span>
           </a>
         <li class=\"nav-item\">
-          <a class=\"nav-link\" href=\"{{ path('ingredient.index') }}\">Ingrédients
+          <a class=\"nav-link\" href=\"{{ path('ingredient.index') }}\">Mon stock
             <span class=\"visually-hidden\">(current)</span>
           </a>
     </div>

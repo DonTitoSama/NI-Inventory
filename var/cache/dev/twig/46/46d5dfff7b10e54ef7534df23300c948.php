@@ -65,7 +65,7 @@ class __TwigTemplate_149fd4a484bfcb94b0bc449429873828 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
 
-        echo "SynRecipe - Mes Ingrédients
+        echo "NI Inventory - Mon stock
 ";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
@@ -91,7 +91,7 @@ class __TwigTemplate_149fd4a484bfcb94b0bc449429873828 extends Template
         // line 8
         if ( !((isset($context["ingredients"]) || array_key_exists("ingredients", $context) ? $context["ingredients"] : (function () { throw new RuntimeError('Variable "ingredients" does not exist.', 8, $this->source); })()) === [])) {
             // line 9
-            echo "        <h1>Mes ingrédients</h1>
+            echo "        <h1>Mon stock</h1>
 
         <a href=\"";
             // line 11
@@ -229,13 +229,13 @@ class __TwigTemplate_149fd4a484bfcb94b0bc449429873828 extends Template
     {
         return new Source("{% extends 'base.html.twig' %}
 
-{% block title %}SynRecipe - Mes Ingrédients
+{% block title %}NI Inventory - Mon stock
 {% endblock %}
 
 {% block body %}
     <div class=\"container mt-4\">
         {% if not ingredients is same as([]) %}
-        <h1>Mes ingrédients</h1>
+        <h1>Mon stock</h1>
 
         <a href=\"{{ path('ingredient.new') }}\" class=\"btn btn-primary\">
             Créer un ingrédient
